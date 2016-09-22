@@ -4,7 +4,7 @@ email: contact@democracyos.eu
 description: > # this means to ignore newlines until "baseurl:"
   Site de documentation pour la version française de DemocracyOS.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://democracy-os-fr.github.io/docs-fr" # the base hostname & protocol for your site
+url: "http://democracyos.eu/docs-fr" # the base hostname & protocol for your site
 twitter_username: democracyos_fr
 github_username:  democracy-os-fr
 
