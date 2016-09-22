@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Bienvenue sur le site de documentation de DemocracyOS"
+date:   2016-09-22
+categories: bienvenue
+tags: bienvenue
+---
+
+DemocracyOS est un espace en ligne dédié à la délibération et au vote sur des propositions politiques. C'est une plateforme pour un gouvernement plus ouvert et participatif. Le logiciel a pour but de stimuler une meilleure argumentation et d'arriver à de meilleures règles, en tant que paires.
+
+Bienvenue sur le site de Documentation. Vous trouverez ici des informations sur l'installation, l'utilisation et l'extension de DemocracyOS. Si vous voyez une erreur sur ce site, veuillez la rapporter sur la page des [Issues](https://github.com/DemocracyOS/app/issues) du projet. Ou, si vous souhaitez aller un peu plus moi, la corriger sur [github.com/DemocracyOS/app/docs](https://github.com/DemocracyOS/app/tree/development/docs) et envoyer un [Pull Request](contributing.html#pull-requests).
+
+## Support
+
+Aller sur la [liste de diffusion DemocracyOS](https://groups.google.com/forum/#!forum/democracyos-app) pour des questions exclusivement sur DemocracyOS.
+
+Sur les [Issues](https://github.com/DemocracyOS/app/issues) du projet, remplissez des rapports de bogues ou demandes de fonctionnalité.
+
+Et utilisez [Gitter Room](https://gitter.im/DemocracyOS/app) si vous avez des demandes ou souhaitez discuter de points techniques.
+
+## Débuter
+
+Vous pouvez commencer par [Installer DemocracyOS](install.md) sur votre machine.
+
+Pour commencer à coder, allez dans la section [Développer](develop).
+
+Et, si vous souhaitez avoir DemocracyOS installé et s'exécutant en production, lisez l'un des guides de [Déploiement](deploy).
+
+## Technology
+
+ * [Javascript](https://es.wikipedia.org/wiki/JavaScript), javascript, javascript.
+ * [NodeJS & NPM](http://nodejs.org/download) pour le code côté serveur.
+ * [Babel.js](https://babeljs.io/) pour toute la magie ES2015 côté client.
+ * [Browserify](http://browserify.org/) pour les intégrations côté client.
+ * [Stylus](https://learnboost.github.io/stylus/) pour les styles css.
+ * [Jade](http://jade-lang.com/) pour les modèles.
+ * [MongoDB](http://www.mongodb.org/downloads) pour le stockage des données.
+ * [Mongoose](http://mongoosejs.com/) pour modeliser les données d'application.
+
+_Prend en charge les vrais navigateurs et IE10+._
+
+## Faites-le nous savoir !
+
+Si vous lancez des instances live de DemocracyOS, n'oubliez pas d'envoyer un mail à Matías Lescano (matias [at] democracyos.org) afin que nous puissions vous aider en communiquant via notre réseau. C'est aussi plus facile pour nous de vous informer à propos des nouvelles fonctionnalités et des progrès si nous savons qui exécute les instances. 
