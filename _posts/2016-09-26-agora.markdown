@@ -1,16 +1,14 @@
 ---
 layout: post
-title:  "Agora"
+title:  "Agora, version devéloppée par DemocracyOS France"
 date:   2016-09-26
 categories: agora
 tags: doc
 ---
 
-## Agora, version devéloppée par DemocracyOS France
+Vous pouvez localiser cette version de DemocracyOS en vous rendant sur : [https://github.com/democracy-os-fr/democracyos/tree/alt/agora](https://github.com/democracy-os-fr/democracyos/tree/alt/agora)
 
-Vous pouvez localiser cette version de DemocracyOS en vous rendant sur : https://github.com/democracy-os-fr/democracyos/tree/alt/agora
-
-*Attention : cette version est un dérivé de la version principale de DemocracyOS qui découle des retours que nous avons eu sur dernières les plateformes que nous avons mis en place. Nous ne savons pas encore quelles fonctionnalités seront reprises à terme dans la version principale. Pour aller sur la master https://github.com/democracy-os-fr/democracyos/*
+*Attention : cette version est un dérivé de la version principale de DemocracyOS qui découle des retours que nous avons eu sur dernières les plateformes que nous avons mis en place. Nous ne savons pas encore quelles fonctionnalités seront reprises à terme dans la version principale. Pour aller sur la master [https://github.com/democracy-os-fr/democracyos](https://github.com/democracy-os-fr/democracyos)*
 
 Cette version comprend :
 
