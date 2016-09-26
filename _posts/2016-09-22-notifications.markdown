@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Les notifications dans DemocracyOS"
+title:  "Gérer les notifications"
 date:   2016-09-22
 categories: doc
 tags: doc

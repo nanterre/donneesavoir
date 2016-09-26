@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Comment contribuer à DemocracyOS"
+title:  "Comment contribuer"
 date:   2016-09-22
 categories: doc
 tags: doc

@@ -1,17 +1,16 @@
 <section>
-  <div class="mini-posts">
+  <div class="well_list well_list-nav">
+ 
     <h3>Doc technique</h3>
     {% for post in site.categories.doc limit:10 %}
-      <article class="mini-post">
-  	    <header>
-  		    <h3><a href="/docs-fr{{ post.url }}">{{ post.title }}</a></h3>
+      <div class="well_list well_list-nav">
+  	   
+  		    <li><a href="/docs-fr{{ post.url }}">{{ post.title }}</li></h3>
 		      <!-- <time class="published" datetime="{{post.date | date: "%F" }}">{{ post.date | date: "%B %d, %Y" }}</time> -->
 						<!--<a href="#" class="author"><img src="./images/avatar.jpg" alt="" /></a>-->
-			  </header>
-        {% if post.image %}
-          <a href="/docs-fr{{ post.url }}" class="image"><img src="{{post.image}}" alt="" /></a>
-        {% endif %}
-		  </article>
+			 
+      
+		  </div>
 									<!-- Mini Post -->
 									  <!--
 										<article class="mini-post">
@@ -24,18 +23,19 @@
 										</article>
 									-->
     {% endfor %}
-    <h3>Tutos utilisateurs</h3>
+
+    <h3 style="margin-top:20px">Tutos utilisateurs</h3>
     {% for post in site.categories.tuto limit:10 %}
-      <article class="mini-post">
-  	    <header>
-  		    <h3><a href="/docs-fr{{ post.url }}">{{ post.title }}</a></h3>
+      <div class="well_list well_list-nav">
+  	    
+  		    <li><a href="/docs-fr{{ post.url }}">{{ post.title }}</li></h3>
 		      <!-- <time class="published" datetime="{{post.date | date: "%F" }}">{{ post.date | date: "%B %d, %Y" }}</time> -->
 						<!--<a href="#" class="author"><img src="./images/avatar.jpg" alt="" /></a>-->
-			  </header>
+			 
         {% if post.image %}
           <a href="/docs-fr{{ post.url }}" class="image"><img src="{{post.image}}" alt="" /></a>
         {% endif %}
-		  </article>
+		  </div>
 									<!-- Mini Post -->
 									  <!--
 										<article class="mini-post">

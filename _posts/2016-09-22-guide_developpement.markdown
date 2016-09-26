@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Guide de développement sous DemocracyOS"
+title:  "Guide de développement"
 date:   2016-09-22
 categories: doc
 tags: doc
@@ -28,10 +28,10 @@ Nous prenons aussi en charge la [dernière version](http://blog.mongodb.org/post
 
 Donc [téléchargez](https://www.mongodb.org/downloads) la version correspondant à votre système et suivez les instructions d'installation.
 
-```
-Remarque : nous envisageons d'utiliser Docker à la fois pour le développement et la production afin que commencer à développer sur une nouvelle machine soit très facile et de pouvoir exécuter l'application dans le même environnement qu'en production.
+<i>
+<b>Remarque :</b> nous envisageons d'utiliser Docker à la fois pour le développement et la production afin que commencer à développer sur une nouvelle machine soit très facile et de pouvoir exécuter l'application dans le même environnement qu'en production.
 
-```
+</i>
 
 #### Browserify
 
