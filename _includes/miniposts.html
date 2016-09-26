@@ -1,9 +1,11 @@
 <section>
   <div class="well_list well_list-nav">
+ 
+    <h3>Doc spécifique Agora</h3>
     {% for post in site.categories.agora limit:1 %}
       <div class="well_list well_list-nav">
   	   
-  		    <li><a href="/docs-fr{{ post.url }}">{{ post.title }}</li></h3>
+  		    <li><a href="/docs-fr{{ post.url }}">{{ post.title }}</li>
 		      <!-- <time class="published" datetime="{{post.date | date: "%F" }}">{{ post.date | date: "%B %d, %Y" }}</time> -->
 						<!--<a href="#" class="author"><img src="./images/avatar.jpg" alt="" /></a>-->
 			 
@@ -21,12 +23,12 @@
 										</article>
 									-->
     {% endfor %}
-
-    <h3>Doc technique</h3>
+    <br>
+    <h3>Doc technique (master)</h3>
     {% for post in site.categories.doc limit:10 %}
       <div class="well_list well_list-nav">
   	   
-  		    <li><a href="/docs-fr{{ post.url }}">{{ post.title }}</li></h3>
+  		    <li><a href="/docs-fr{{ post.url }}">{{ post.title }}</li>
 		      <!-- <time class="published" datetime="{{post.date | date: "%F" }}">{{ post.date | date: "%B %d, %Y" }}</time> -->
 						<!--<a href="#" class="author"><img src="./images/avatar.jpg" alt="" /></a>-->
 			 
@@ -49,7 +51,7 @@
     {% for post in site.categories.tuto limit:10 %}
       <div class="well_list well_list-nav">
   	    
-  		    <li><a href="/docs-fr{{ post.url }}">{{ post.title }}</li></h3>
+  		    <li><a href="/docs-fr{{ post.url }}">{{ post.title }}</li>
 		      <!-- <time class="published" datetime="{{post.date | date: "%F" }}">{{ post.date | date: "%B %d, %Y" }}</time> -->
 						<!--<a href="#" class="author"><img src="./images/avatar.jpg" alt="" /></a>-->
 			 
