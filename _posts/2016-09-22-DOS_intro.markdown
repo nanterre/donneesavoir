@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bienvenue sur le site de documentation de DemocracyOS"
+title:  "Bienvenue sur le site de l'exposition Données à voir"
 date:   2016-09-22
 categories: bienvenue
 tags: bienvenue
