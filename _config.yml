@@ -1,12 +1,12 @@
 # Site settings
-title: Docs FR DemocracyOS
-email: contact@democracyos.eu
+title: Données à voir
+email: participez@mairie-nanterre.fr
 description: > # this means to ignore newlines until "baseurl:"
-  Site de documentation pour la version française de DemocracyOS.
-baseurl: "/docs-fr" # the subpath of your site, e.g. /blog/
-url: "http:/democracyos.eu/docs-fr" # the base hostname & protocol for your site
-twitter_username: democracyos_fr
-github_username:  democracy-os-fr
+  Site de documentation de l'exposition Données à Voir.
+baseurl: "/donneesavoir" # the subpath of your site, e.g. /blog/
+url: "http:/nanterre.github.io/donneesavoir" # the base hostname & protocol for your site
+twitter_username: nanterredigital
+github_username:  nanterre
 
 # Build settings
 markdown: kramdown
