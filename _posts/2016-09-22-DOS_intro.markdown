@@ -6,39 +6,21 @@ categories: bienvenue
 tags: bienvenue
 ---
 
-DemocracyOS est un espace en ligne dédié à la délibération et au vote sur des propositions politiques. C'est une plateforme pour un gouvernement plus ouvert et participatif. Le logiciel a pour but de stimuler une meilleure argumentation et d'arriver à de meilleures règles, en tant que paires.
+L’exposition Données à voir rassemble une série d’œuvres qui proposent des interpré- tations de données personnelles et publiques à travers le dessin ou le code : graphes, dessins, installations en réseau, sculptures, publications, performance... Entre le dessin et la programmation, une même démarche se fait jour : celle d’une réappropriation indi- viduelle par les artistes d’un monde de données traversant l’ensemble de la société contemporaine, pour en proposer une interprétation critique.
 
-Bienvenue sur le site de Documentation. Vous trouverez ici des informations sur l'installation, l'utilisation et l'extension de DemocracyOS. Si vous voyez une erreur sur ce site, veuillez la rapporter sur la page des [Issues](https://github.com/DemocracyOS/app/issues) du projet. Ou, si vous souhaitez aller un peu plus moi, la corriger sur [github.com/DemocracyOS/app/docs](https://github.com/DemocracyOS/app/tree/development/docs) et envoyer un [Pull Request](contributing.html#pull-requests).
+Le dessin et le code partagent ici une approche commune de la trace : schémas de sys- tèmes de relations politiques ou sociaux dans les dessins d’Öyvind Fahlström, Ward Shelley, Julien Prévieux ou Mark Lombardi, empreinte numérique des individus chez Hasan Elahi, représentations génératives du présent et des utopies chez Claire Malrieux ou Ali Tnani, questionnement des systèmes de représentation par Martin John Callanan, etc. 
 
-## Support
+La machine rejoint la main dans une cartographie de ce qui nous entoure. Abordant des enjeux aussi bien sensibles et poétiques que critiques ou politiques, ces œuvres questionnent ainsi ce que nous attendons des données, et comment ces attentes concourent à former notre vision du monde.
 
-Aller sur la [liste de diffusion DemocracyOS](https://groups.google.com/forum/#!forum/democracyos-app) pour des questions exclusivement sur DemocracyOS.
+Autour de ces questions et à travers la relation au dessin, Données à voir propose ainsi un parcours historique qui va des années soixante-dix à des artistes internationaux contemporains – dont plusieurs pièces sont exposées ici pour la première fois en France. L’exposition présente également un ensemble de publications et livres d’ar- tistes consacrés à ces notions. Elle se complète d’une documentation de  lms et sites web qui abordent les enjeux de l’appropriation citoyenne des données.
 
-Sur les [Issues](https://github.com/DemocracyOS/app/issues) du projet, remplissez des rapports de bogues ou demandes de fonctionnalité.
+Commissaires de l’exposition : Sandrine Moreau et Thierry Fournier
 
-Et utilisez [Gitter Room](https://gitter.im/DemocracyOS/app) si vous avez des demandes ou souhaitez discuter de points techniques.
+## Documentation
 
-## Débuter
+La documentation accompagnant l’exposition ne présente pas les œuvres, elle les accompagne et permet d’aller plus loin dans la connaissance des datas. Le sujet principal est l’autonomisation citoyenne ( plus exactement l’ « empowerment », un terme qui ne se traduit pas parfaitement en français ). 
 
-Vous pouvez commencer par [Installer DemocracyOS](install.md) sur votre machine.
+Cette documentation est issue de la veille réalisée par Benoît Ferchaud (la Revue Créatique), à laquelle est ajoutée celle de tous les participants de l’exposition, membres de l’équipe de réalisation de l’exposition « Données à voir ». 
 
-Pour commencer à coder, allez dans la section [Développer](develop).
+Cela concerne autant des recherches préliminaires qui ont servi à affiner le projet curatorial, que d’autres parvenues après que le projet soit arrêté, défini, et venant comme autant d’évocations d’ailleurs ou de suites possibles. Cette documentation a vocation à être augmentée, au fil de l’exposition, par chacun y compris le plus simple visiteur. Pour cela elle est placée sur un dépôt en ligne que chacun peut copier ou auquel chacun peut participer. Le site entier peut être copié et déplacé. La participation peut être faite par des contributeurs aguerris à l’usage de ces outils, ou bien par un simple message qui proposera un ajout, une modification. Ce contenu est entièrement placé sous licence libre.
 
-Et, si vous souhaitez avoir DemocracyOS installé et s'exécutant en production, lisez l'un des guides de [Déploiement](deploy).
-
-## Technology
-
- * [Javascript](https://es.wikipedia.org/wiki/JavaScript), javascript, javascript.
- * [NodeJS & NPM](http://nodejs.org/download) pour le code côté serveur.
- * [Babel.js](https://babeljs.io/) pour toute la magie ES2015 côté client.
- * [Browserify](http://browserify.org/) pour les intégrations côté client.
- * [Stylus](https://learnboost.github.io/stylus/) pour les styles css.
- * [Jade](http://jade-lang.com/) pour les modèles.
- * [MongoDB](http://www.mongodb.org/downloads) pour le stockage des données.
- * [Mongoose](http://mongoosejs.com/) pour modeliser les données d'application.
-
-_Prend en charge les vrais navigateurs et IE10+._
-
-## Faites-le nous savoir !
-
-Si vous lancez des instances live de DemocracyOS, n'oubliez pas d'envoyer un mail à Matías Lescano (matias [at] democracyos.org) afin que nous puissions vous aider en communiquant via notre réseau. C'est aussi plus facile pour nous de vous informer à propos des nouvelles fonctionnalités et des progrès si nous savons qui exécute les instances. 
